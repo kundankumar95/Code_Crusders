@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Crusders</title>
+    <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="dropdown">
+                <button type="submit" class="btn btn-danger" > <a href="home.html" style="color: white; text-decoration: none;" >Code Crusders</a></button>
+              
+               
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contact.html">Get in touch</a>
+                    </li>
+                    </li>>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+               
+    <div class="mx-2">
+        
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignupModal">Signup</button>
+    </div>
+</div>
+</nav>
+<!--Login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="LoginModalLabel">Login to Code Crusders Account</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="mb-3 form-check">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+    </div>
+</div>
+</div>
+<!--Signup Modal -->
+<div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="SignupModalLabel">Get an Code Crusders Account</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">                            
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+</div> 
+
+    <div class="container my-5">
+        <h2>About Us</h2>
+        <div class="row featurette ">
+        </div>
+        <div class="row featurette ">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1" style="margin-top: 150px;">Welcome to Code Crusders. <span
+                        class="text-body-secondary"></span></h2>
+                <p class="lead">Your trusted destination for quality learning materials and resources.</p>
+            </div>
+            <div class="col-md-5 ">
+                <img class="img-fluid" src="download(1).jpeg" style="height: 400px; width: 500px;">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em"></text>
+
+            </div>
+        </div>
+    </div>
+   
+    <div class="container my-5">
+        
+        <div class="row featurette ">
+        </div>
+        <div class="row featurette">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading fw-normal lh-1 " style="margin-top: 150px;">We started Code Crusders in 2023.
+                    <span class="text-body-secondary aling-items-center">It will blow your mind.</span></h2>
+                <p class="lead">Our journey started with a simple mission: to empower individuals with the knowledge and tools they need to suceed in a rapidly evolving world. Over the years, we have helped thousads of students to achive their dream. </p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="story.png" style="height: 400px; width: 500px;">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em"></text>
+
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row featurette ">
+        </div>
+        <div class="row featurette ">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1" style="margin-top: 150px;">Our Vision. <span
+                        class="text-body-secondary"></span></h2>
+                <p class="lead">At Code Crusders, we envision a future where learning knows no boundaries. Our vision is to create a wworld where everyone can access high quality educational resourses anytime, anywhere. </p>
+            </div>
+            <div class="col-md-5 ">
+                <img class="img-fluid" src="vision.jpg" style="height: 400px; width: 500px;">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em"></text>
+
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row featurette ">
+        </div>
+        <div class="row featurette">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading fw-normal lh-1 " style="margin-top: 150px;">Meet our team.
+                    <span class="text-body-secondary aling-items-center"></span></h2>
+                <p class="lead">Our core team brings a wealth of knowledge and experience to your ideas and skills. With improved strategies we create better minds for future.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="meet-team.jpg" style="height: 400px; width: 500px;">
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                    fill="var(--bs-secondary-color)" dy=".3em"></text>
+
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-end"><a href="about.html">Back to top</a></p>
+        <p>© 2023–2024 CodeCrusders, Inc. · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
